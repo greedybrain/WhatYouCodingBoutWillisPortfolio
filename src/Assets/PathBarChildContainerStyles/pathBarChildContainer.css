@@ -1,0 +1,24 @@
+div.pathbar {
+  border-bottom: 1px solid red;
+  width: 100%;
+}
+
+div.pathbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid red;
+}
+
+div.pathbar ul li {
+  border: 1px solid green;
+  font-size: 1.2vw;
+  padding: 10px 15px;
+}
+
+div.pathbar div.path {
+  padding: 4px 0 4px 15px;
+  font-size: 1vw;
+}
+/*# sourceMappingURL=pathBarChildContainer.css.map */

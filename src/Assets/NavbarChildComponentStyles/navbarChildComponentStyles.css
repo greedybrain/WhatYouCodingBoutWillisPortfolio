@@ -1,0 +1,23 @@
+div.navbar_child_component {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 93vh;
+  font-size: 1vw;
+}
+
+div.navbar_child_component div.nav_items {
+  width: 100%;
+}
+
+div.navbar_child_component div.social_items {
+  width: 100%;
+}
+/*# sourceMappingURL=navbarChildComponentStyles.css.map */

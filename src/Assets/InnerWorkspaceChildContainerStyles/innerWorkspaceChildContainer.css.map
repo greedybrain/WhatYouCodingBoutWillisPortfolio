@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,GAAG,AAAA,0BAA0B,CAAC;EACtB,WAAW,EAAE,gBAAgB;EAC7B,KAAK,EAAE,IAAI;CAClB",
+    "sources": [
+        "innerWorkspaceChildContainer.scss"
+    ],
+    "names": [],
+    "file": "innerWorkspaceChildContainer.css"
+}

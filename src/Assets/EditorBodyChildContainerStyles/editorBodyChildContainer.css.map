@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,GAAG,AAAA,sBAAsB,CAAC;EAClB,aAAa,EAAE,eAAe;EAC9B,OAAO,EAAE,IAAI;CACpB",
+    "sources": [
+        "editorBodyChildContainer.scss"
+    ],
+    "names": [],
+    "file": "editorBodyChildContainer.css"
+}

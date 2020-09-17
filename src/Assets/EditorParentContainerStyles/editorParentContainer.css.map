@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,GAAG,AAAA,iBAAiB,CAAC;EACb,MAAM,EAAE,aAAa;EACrB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;CACpB",
+    "mappings": "AAAA,AAAA,GAAG,AAAA,iBAAiB,CAAC;EACb,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;CACpB",
     "sources": [
         "editorParentContainer.scss"
     ],
