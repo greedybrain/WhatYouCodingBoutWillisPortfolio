@@ -10,11 +10,16 @@ div.navbar_child_component {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 93vh;
-  font-size: 1vw;
+  font-size: 1.5rem;
+  padding: 10px 0;
 }
 
 div.navbar_child_component div.nav_items {
   width: 100%;
+}
+
+div.navbar_child_component div.nav_items ul li {
+  text-align: center;
 }
 
 div.navbar_child_component div.social_items {

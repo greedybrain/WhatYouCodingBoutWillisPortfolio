@@ -4,23 +4,23 @@ div.window_mock_buttons_child_component {
                 display: flex;
                 li {
                         border-radius: 100%;
-                        width: 15px;
-                        height: 15px;
+                        width: 13px;
+                        height: 13px;
 
                         &:not(:first-child) {
                                 margin-left: 15px;
                         }
 
                         &.red {
-                                background-color: red;
+                                background-color: #ff4d4d;
                         }
 
                         &.yellow {
-                                background-color: yellow;
+                                background-color: #e9d30c;
                         }
 
                         &.green {
-                                background-color: green;
+                                background-color: #00c700;
                         }
                 }
         }

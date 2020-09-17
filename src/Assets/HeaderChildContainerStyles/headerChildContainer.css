@@ -1,5 +1,5 @@
 header.header_child_container {
-  border-bottom: 1px solid blue;
+  background-color: #00093b;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,6 +9,6 @@ header.header_child_container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 3px 10px;
+  padding: 5px 10px;
 }
 /*# sourceMappingURL=headerChildContainer.css.map */

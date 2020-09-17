@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,AAAA,uBAAuB,CAAC;EACtB,aAAa,EAAE,cAAc;EAC7B,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,QAAQ;CACxB",
+    "mappings": "AAAA,AAAA,MAAM,AAAA,uBAAuB,CAAC;EACtB,gBAAgB,EAAE,OAAO;EACzB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,QAAQ;CACxB",
     "sources": [
         "headerChildContainer.scss"
     ],

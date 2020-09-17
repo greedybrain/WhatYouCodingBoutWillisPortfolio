@@ -1,5 +1,7 @@
 div.logo {
   margin: 0 auto;
-  font-size: 1.2rem;
+  font-size: 1vw;
+  color: #fff;
+  letter-spacing: 1px;
 }
 /*# sourceMappingURL=logoChildComponent.css.map */

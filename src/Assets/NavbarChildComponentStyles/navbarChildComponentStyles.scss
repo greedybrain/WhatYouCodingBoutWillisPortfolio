@@ -3,10 +3,17 @@ div.navbar_child_component {
         flex-direction: column;
         justify-content: space-between;
         height: 93vh;
-        font-size: 1vw;
+        font-size: 1.5rem;
+        padding: 10px 0;
 
         div.nav_items {
                 width: 100%;
+
+                ul {
+                        li {
+                                text-align: center;
+                        }
+                }
         }
 
         div.social_items {
