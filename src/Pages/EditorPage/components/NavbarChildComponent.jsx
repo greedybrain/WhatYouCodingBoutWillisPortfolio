@@ -7,7 +7,9 @@ const NavbarChildComponent = () => {
                 <div className="navbar_child_component">
                         <div className="nav_items">
                                 <ul>
-                                        <li>About</li>
+                                        <li className="user_icon">
+                                                <i className="fas fa-user-secret"></i>
+                                        </li>
                                         <li>Projects</li>
                                 </ul>
                         </div>
