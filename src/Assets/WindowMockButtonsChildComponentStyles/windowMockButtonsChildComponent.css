@@ -1,0 +1,28 @@
+div.window_mock_buttons_child_component ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.window_mock_buttons_child_component ul li {
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+}
+
+div.window_mock_buttons_child_component ul li:not(:first-child) {
+  margin-left: 15px;
+}
+
+div.window_mock_buttons_child_component ul li.red {
+  background-color: red;
+}
+
+div.window_mock_buttons_child_component ul li.yellow {
+  background-color: yellow;
+}
+
+div.window_mock_buttons_child_component ul li.green {
+  background-color: green;
+}
+/*# sourceMappingURL=windowMockButtonsChildComponent.css.map */

@@ -1,0 +1,27 @@
+div.window_mock_buttons_child_component {
+
+        ul {
+                display: flex;
+                li {
+                        border-radius: 100%;
+                        width: 15px;
+                        height: 15px;
+
+                        &:not(:first-child) {
+                                margin-left: 15px;
+                        }
+
+                        &.red {
+                                background-color: red;
+                        }
+
+                        &.yellow {
+                                background-color: yellow;
+                        }
+
+                        &.green {
+                                background-color: green;
+                        }
+                }
+        }
+}
