@@ -1,10 +1,15 @@
 import React from 'react'
 
+import '../../../Assets/HeaderChildContainerStyles/headerChildContainer.css'
+import LogoChildComponent from './LogoChildComponent'
+import WindowMockButtonsChildComponent from './WindowMockButtonsChildComponent'
+
 const HeaderChildContainer = () => {
         return (
-                <div>
-                        
-                </div>
+                <header className="header_child_container">
+                        <WindowMockButtonsChildComponent />
+                        <LogoChildComponent />
+                </header>
         )
 }
 
