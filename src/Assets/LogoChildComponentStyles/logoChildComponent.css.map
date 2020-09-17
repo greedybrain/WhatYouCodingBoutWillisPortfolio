@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,GAAG,AAAA,KAAK,CAAC;EACD,MAAM,EAAE,MAAM;EACd,SAAS,EAAE,MAAM;CACxB",
+    "sources": [
+        "logoChildComponent.scss"
+    ],
+    "names": [],
+    "file": "logoChildComponent.css"
+}
