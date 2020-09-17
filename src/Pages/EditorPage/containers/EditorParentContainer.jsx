@@ -1,9 +1,10 @@
 import React from 'react'
+import HeaderChildContainer from '../components/HeaderChildContainer'
 
 const EditorParentContainer = () => {
         return (
-                <div>
-                        
+                <div className="editor_container">
+                        <HeaderChildContainer />
                 </div>
         )
 }
