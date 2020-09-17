@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,AAAA,uBAAuB,CAAC;EACtB,aAAa,EAAE,cAAc;EAC7B,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,QAAQ;CACxB",
+    "sources": [
+        "headerChildContainer.scss"
+    ],
+    "names": [],
+    "file": "headerChildContainer.css"
+}
