@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,GAAG,AAAA,mBAAmB,CAAC;EACf,KAAK,EAAE,EAAE;CAChB",
+    "mappings": "AAAA,AAAA,GAAG,AAAA,mBAAmB,CAAC;EACf,KAAK,EAAE,EAAE;EACT,gBAAgB,EAAE,OAAO;CAChC",
     "sources": [
         "explorerChildContainer.scss"
     ],

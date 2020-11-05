@@ -1,6 +1,6 @@
 div.pathbar {
-  border-bottom: 1px solid red;
   width: 100%;
+  background-color: #00112c;
 }
 
 div.pathbar ul {
@@ -8,17 +8,46 @@ div.pathbar ul {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #eeeeee36;
 }
 
 div.pathbar ul li {
-  border-right: 1px solid green;
-  font-size: 1.2rem;
-  padding: 10px 15px;
+  border-right: 1px solid #eeeeee36;
+  font-size: 1.1rem;
+  padding: 8px 15px;
+  color: #fff;
+  opacity: .8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+div.pathbar ul li div.readme_icon,
+div.pathbar ul li div.projects_icon {
+  margin-right: 10px;
+}
+
+div.pathbar ul li div.readme_icon i,
+div.pathbar ul li div.projects_icon i {
+  font-size: .8rem;
+  color: #00adf1;
 }
 
 div.pathbar div.path {
-  padding: 4px 0 4px 15px;
-  font-size: 1rem;
+  background-color: #00173b;
+  padding: 5px 0 5px 15px;
+  font-size: .9rem;
+  color: #fff;
+  opacity: .8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.75);
+  border-bottom: 1px solid #eeeeee17;
 }
 /*# sourceMappingURL=pathBarChildContainer.css.map */

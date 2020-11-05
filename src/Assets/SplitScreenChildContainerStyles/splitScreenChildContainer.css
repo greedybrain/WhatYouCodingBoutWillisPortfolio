@@ -1,7 +1,39 @@
 div.split_screen_container {
-  height: 86vh;
+  position: relative;
+  height: 87vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+div.split_screen_container div.left_side,
+div.split_screen_container div.right_side {
+  background-color: #00173b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0;
+}
+
+div.split_screen_container div.left_side ul,
+div.split_screen_container div.right_side ul {
+  width: 13%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #00173b;
+}
+
+div.split_screen_container div.left_side ul li,
+div.split_screen_container div.right_side ul li {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5px;
+  color: #fff;
+  opacity: .5;
 }
 /*# sourceMappingURL=splitScreenChildContainer.css.map */

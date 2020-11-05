@@ -12,17 +12,39 @@ div.navbar_child_component {
   height: 93vh;
   font-size: 1.5rem;
   padding: 10px 0;
+  border-right: 1px solid #eeeeee11;
 }
 
-div.navbar_child_component div.nav_items {
-  width: 100%;
-}
-
-div.navbar_child_component div.nav_items ul li {
-  text-align: center;
-}
-
+div.navbar_child_component div.nav_items,
 div.navbar_child_component div.social_items {
   width: 100%;
+}
+
+div.navbar_child_component div.nav_items ul li,
+div.navbar_child_component div.social_items ul li {
+  text-align: center;
+  color: #fff;
+  opacity: .8;
+  padding: 10px 0;
+}
+
+div.navbar_child_component div.nav_items ul li i,
+div.navbar_child_component div.social_items ul li i {
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+div.navbar_child_component div.nav_items ul li.linked_in, div.navbar_child_component div.nav_items ul li.twitter, div.navbar_child_component div.nav_items ul li.dev_to,
+div.navbar_child_component div.social_items ul li.linked_in,
+div.navbar_child_component div.social_items ul li.twitter,
+div.navbar_child_component div.social_items ul li.dev_to {
+  padding: 5px 0;
+}
+
+div.navbar_child_component div.nav_items ul li.linked_in i, div.navbar_child_component div.nav_items ul li.twitter i, div.navbar_child_component div.nav_items ul li.dev_to i,
+div.navbar_child_component div.social_items ul li.linked_in i,
+div.navbar_child_component div.social_items ul li.twitter i,
+div.navbar_child_component div.social_items ul li.dev_to i {
+  font-size: 1.7rem;
 }
 /*# sourceMappingURL=navbarChildComponentStyles.css.map */

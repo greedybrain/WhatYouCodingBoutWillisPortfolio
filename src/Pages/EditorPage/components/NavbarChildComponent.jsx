@@ -10,14 +10,25 @@ const NavbarChildComponent = () => {
                                         <li className="user_icon">
                                                 <i className="fas fa-user-secret"></i>
                                         </li>
-                                        <li>Projects</li>
+                                        <li className="projects">
+                                                <i className="fas fa-code-branch"></i>
+                                        </li>
                                 </ul>
                         </div>
                         <div className="social_items">
                                 <ul>
-                                        <li>FB</li>
-                                        <li>Twitter</li>
-                                        <li>LinkedIn</li>
+                                        <li className="linked_in">
+                                                <i className="fab fa-linkedin"></i>
+                                        </li>
+                                        <li className="github">
+                                                <i className="fab fa-github-square"></i>
+                                        </li>
+                                        <li className="dev_to">
+                                                <i className="fab fa-dev"></i>
+                                        </li>
+                                        <li className="twitter">
+                                                <i className="fab fa-twitter-square"></i>
+                                        </li>
                                 </ul>
                         </div>
                 </div>

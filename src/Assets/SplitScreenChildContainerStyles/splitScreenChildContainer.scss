@@ -1,4 +1,24 @@
 div.split_screen_container {
-        height: 86vh;
+        position: relative;
+        height: 87vh;
         display: flex;
+        div.left_side,
+        div.right_side {
+                background-color: #00173b;
+                display: flex;
+                padding: 10px 0;
+                ul {
+                        width: 13%;
+                        display: flex;
+                        flex-direction: column;
+                        background-color: #00173b;
+                        li {
+                                width: 100%;
+                                text-align: center;
+                                padding-bottom: 5px;
+                                color: #fff;
+                                opacity: .5;
+                        }
+                }
+        }
 }

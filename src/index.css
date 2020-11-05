@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 15px;
+  border-left: 1px solid rgba(255, 255, 255, 0.096);
+}
+::-webkit-scrollbar-thumb {
+  background-color: #0066a149;
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+::-webkit-scrollbar-thumb:not(:hover) {
+  opacity: 0;
+}
+
 html, body {
   font-family: monospace;
 }

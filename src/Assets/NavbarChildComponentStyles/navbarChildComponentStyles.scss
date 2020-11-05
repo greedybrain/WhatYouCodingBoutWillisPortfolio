@@ -5,18 +5,34 @@ div.navbar_child_component {
         height: 93vh;
         font-size: 1.5rem;
         padding: 10px 0;
+        border-right: 1px solid #eeeeee11;
 
-        div.nav_items {
+        div.nav_items,
+        div.social_items {
                 width: 100%;
 
                 ul {
                         li {
                                 text-align: center;
+                                color: #fff;
+                                opacity: .8;
+                                padding: 10px 0;
+
+                                i {
+                                        font-size: 1.7rem;
+                                        cursor: pointer;
+                                }
+
+                                &.linked_in,
+                                &.twitter,
+                                &.dev_to {
+                                        padding: 5px 0;
+                                        i {
+                                                font-size: 1.7rem;
+                                        }
+                                }
+
                         }
                 }
-        }
-
-        div.social_items {
-                width: 100%;
         }
 }
